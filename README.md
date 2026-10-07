@@ -44,7 +44,7 @@ Or, to install it as a command:
 
 Run as a module:
 
-    python -m backup.cli 127.0.0.1 -u lotus
+    python -m backup.cli 127.0.0.1 -u YourSystemName
 
 Run only specific categories:
 
@@ -52,7 +52,7 @@ Run only specific categories:
 
 If installed with `pip install -e .`:
 
-    ssh-backup 127.0.0.1 -u lotus
+    ssh-backup 127.0.0.1 -u YourSystemName
 
 Use a key instead of a password:
 
