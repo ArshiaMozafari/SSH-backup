@@ -60,7 +60,7 @@ Use a key instead of a password:
 
 If the key is passphrase-protected:
 
-    ssh-backup 127.0.0.1 -u lotus -k ~/.ssh/id_rsa --key-passphrase
+    ssh-backup 127.0.0.1 -u YourSystemName -k ~/.ssh/id_rsa --key-passphrase
 
 Note: `-p` is the SSH **port** (matching `ssh(1)`). The password is
 passed with `--password` or prompted for interactively.
