@@ -48,7 +48,7 @@ Run as a module:
 
 Run only specific categories:
 
-    python -m backup.cli 127.0.0.1 -u lotus -c network users_and_security
+    python -m backup.cli 127.0.0.1 -u YourSystemName -c network users_and_security
 
 If installed with `pip install -e .`:
 
@@ -56,7 +56,7 @@ If installed with `pip install -e .`:
 
 Use a key instead of a password:
 
-    ssh-backup 127.0.0.1 -u lotus -k ~/.ssh/id_rsa
+    ssh-backup 127.0.0.1 -u YourSystemName -k ~/.ssh/id_rsa
 
 If the key is passphrase-protected:
 
